@@ -112,7 +112,6 @@ export const DE: PartialTexts = {
   limitFiveHour: '5 h:',
   limitSevenDay: 'Woche:',
   limitSpend: 'Ausgabenlimit:',
-  limitResets: when => `zurückgesetzt in ${when}`,
   dayUnit: 'T',
   taglines: { fable: 'das stärkste', opus: 'gründlich', sonnet: 'ausgewogen', haiku: 'schnell' },
 }

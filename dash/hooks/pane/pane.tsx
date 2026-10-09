@@ -735,7 +735,7 @@ export function drawPane(ui: Elements, view: PaneView, surface: RenderSurface = 
           const tail = (
             <Text dimColor>
               {percentText(limit.percent)}
-              {limit.resetsInMs === undefined ? '' : ` · ${texts.limitResets(durationText(limit.resetsInMs))}`}
+              {limit.resetsInMs === undefined ? '' : ` · ${durationText(limit.resetsInMs)}`}
             </Text>
           )
 

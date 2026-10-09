@@ -113,7 +113,6 @@ export const EN = {
   limitFiveHour: '5 h:',
   limitSevenDay: 'Week:',
   limitSpend: 'Spend limit:',
-  limitResets: (when: string): string => `resets in ${when}`,
   dayUnit: 'd',
   taglines: {
     fable: 'strongest',

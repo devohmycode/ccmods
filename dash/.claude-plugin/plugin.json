@@ -1,6 +1,6 @@
 {
   "name": "dash",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The session's dashboard in one pane, opened by /dash: the model, the effort and presets that set both, ultracode and fast mode, each switched with one click; the context and quota gauges, the cost and the duration, /compact behind a confirmation, the session's name; the agents, commands, skills, plugins, MCP servers and hooks, a plugin or a server turned on or off from there; and the /config settings. The model, the effort and the session's gauges can sit in the band above the prompt, and compact mode folds each list onto its current row.",
   "author": {
     "name": "DevOhMyCode"

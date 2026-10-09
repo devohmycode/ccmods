@@ -1,7 +1,7 @@
 {
   "name": "ccmods",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Finished function-hook mods for Claude Code, and the marketplace that offers them. Each folder is a standalone plugin; this package pins the TypeScript the hooks are checked with.",
   "type": "module",
   "scripts": {

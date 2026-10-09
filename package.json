@@ -1,0 +1,20 @@
+{
+  "name": "ccmods",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Finished function-hook mods for Claude Code, and the marketplace that offers them. Each folder is a standalone plugin; this package pins the TypeScript the hooks are checked with.",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p dash/tsconfig.json",
+    "typecheck:all": "tsc -p tsconfig.json",
+    "check:options": "node scripts/check-plugin-options.mjs",
+    "check:types": "bash scripts/check-types-version.sh",
+    "check:marketplace": "claude plugin validate .claude-plugin/marketplace.json",
+    "validate": "claude plugin validate --strict dash",
+    "test": "claude plugin test dash",
+    "check": "npm run typecheck && npm run check:options && npm run check:marketplace && npm run validate && npm run test"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "description": "/dash: the session's dashboard: model, effort, session, library and settings",
+  "modules": [
+    "./register.ts"
+  ]
+}
